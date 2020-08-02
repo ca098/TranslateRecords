@@ -20,7 +20,7 @@ If there are still errors then be sure to click `file -> Invalidate Caches / Res
 
 ### Working Demo
  
- <img src="Documentation/AppDemo.gif" width="460" height="828" />
+ <img src="Documentation/AppDemo.gif" width="390" height="838" />
 
 ## Wiki
 
