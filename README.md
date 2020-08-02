@@ -18,6 +18,10 @@ Run the project in Android Studio and it should build, it may requre that the ap
 
 If there are still errors then be sure to click `file -> Invalidate Caches / Restart... -> Invalidate and Restart` on the Android Studio IDE
 
+### Working Demo
+ 
+ <img src="Documentation/AppDemo.gif" width="802" height="508" />
+
 ## Wiki
 
 Check the wiki option on the side view of the project overview for information on each page.
