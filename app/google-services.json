@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "605355414503",
+    "firebase_url": "https://narhwal-2d275.firebaseio.com",
+    "project_id": "narhwal-2d275",
+    "storage_bucket": "narhwal-2d275.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605355414503:android:c5af3d696a5510457ca342",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605355414503-9fr6rutfqutbtuo6tku0f4259g0g5pr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-wYYMVSHloVrrsM1kKcbO5dsvluAJ0Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605355414503-9fr6rutfqutbtuo6tku0f4259g0g5pr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

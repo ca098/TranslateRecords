@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgotten_password">Forgotten Password?</string>
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+
+    <string name="second_page">Second Page</string>
+    <string name="title_activity_login">Test</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="name">Name</string>
+    <string name="product" />
+    <string name="enter">Enter</string>
+    <string name="textview">TextView</string>
+    <string name="ebay_search_tool">eBay Search Tool</string>
+    <string name="enter_text">Enter text</string>
+    <string name="recognize_text">Recognize Text</string>
+    <string name="translate">Translate</string>
+    <string name="loginSuccess">Logged in successfully!</string>
+    <string name="select_image">Select Image</string>
+    <string name="detected_text_will_appear_here">Detected text will appear here</string>
+    <string name="logout">Logout</string>
+</resources>

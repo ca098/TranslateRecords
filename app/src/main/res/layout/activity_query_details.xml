@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login">
+
+    <TextView
+        android:id="@+id/initialView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="@color/login_form_details"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/login_form_details"
+        android:layout_below="@+id/transView"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/transView"
+        app:layout_constraintTop_toBottomOf="@+id/transView" />
+
+    <TextView
+        android:id="@+id/transView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/login_form_details"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/langView"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/langView"
+        app:layout_constraintTop_toBottomOf="@+id/langView" />
+
+    <TextView
+        android:id="@+id/langView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/login_form_details"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/initialView"
+        app:layout_constraintStart_toStartOf="@+id/initialView"
+        app:layout_constraintTop_toBottomOf="@+id/initialView" />
+
+    <TextView
+        android:id="@+id/idView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:textSize="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="TextView"
+        android:textColor="@color/login_form_details"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dateView"
+        app:layout_constraintStart_toStartOf="@+id/dateView"
+        app:layout_constraintTop_toBottomOf="@+id/dateView" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="157dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/idView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_background"
+        android:text="Delete Record"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</RelativeLayout>
